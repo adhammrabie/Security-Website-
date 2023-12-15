@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <div class="navbar">
+        <a href="{{ url_for('logout') }}">Logout</a>
+        <a href="{{ url_for('dashboard') }}">Dashboard</a>
+        <a href="{{ url_for('ceo_office') }}">CEO Office</a>
+        <a href="{{ url_for('about_page') }}">About Greaze</a>
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Greaze</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #2dabaf;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+        }
+
+        a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        a:hover {
+            background-color: #ddd;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            max-width: 600px;
+            margin: 0 auto 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation buttons -->
+        
+    <h1>About Greaze</h1>
+    <p>
+        Greaze is an International streetwear brand that originated in Cairo, Egypt during the winter of 2022.
+        'Based on real-life events,' Greaze aims to offer its customers a taste of unique and high-quality products.
+    </p>
+</body>
+</html>
